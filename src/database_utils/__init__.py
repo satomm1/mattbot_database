@@ -270,8 +270,8 @@ class RobotDatabase:
                     'class_name': obj[1],
                     'x': obj[2],
                     'y': obj[3],
-                    'robot_id': obj[5],
-                    'timestamp': obj[6]
+                    'robot_id': obj[4],
+                    'timestamp': obj[5]
                 })
             return result
         except sqlite3.Error as e:
